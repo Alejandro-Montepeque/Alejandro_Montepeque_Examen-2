@@ -1,3 +1,4 @@
 <template>
-    <h1>GastroGuía</h1>
+    <h1>Comentarios Positivos
+    </h1>
 </template>

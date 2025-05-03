@@ -78,3 +78,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.hover-tada:hover {
+  animation-name: tada;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+nav {
+  background-color:  #EB6E5A !important;
+}
