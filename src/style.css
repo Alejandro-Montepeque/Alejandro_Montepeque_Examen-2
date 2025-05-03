@@ -87,8 +87,31 @@ nav {
 }
 
 footer {
-  grid-column: span 2;
   background-color: #242424 !important;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes tiltGlowPulse {
+  0% {
+    transform: rotate(0deg) scale(1);
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.3);
+  }
+  25% {
+    transform: rotate(-1deg) scale(1.03);
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+  }
+  50% {
+    transform: rotate(1deg) scale(1.06);
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.7);
+  }
+  75% {
+    transform: rotate(-1deg) scale(1.03);
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.3);
+  }
 }

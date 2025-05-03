@@ -1,12 +1,10 @@
 <template>
     <div class="w-100 mt-4">
       <div class="row bg-primary text-white rounded shadow-lg overflow-hidden m-0">
-        <!-- Texto -->
         <div class="col-md-6 d-flex flex-column justify-content-center p-4">
           <h2 class="display-6 fw-bold">{{ title }}</h2>
           <p class="lead">{{ description }}</p>
         </div>
-        <!-- Imagen o animación -->
         <div class="col-md-6 bg-light d-flex align-items-center justify-content-center">
           <img
             v-if="imageSrc"

@@ -6,7 +6,7 @@ const navigation = {
     {
       name: 'Comentarios Positivos',
       icon: 'pi pi-thumbs-up',
-      to: '/',
+      to: '/reseñasPositivas',
     },
     {
       name: 'Comentarios Negativos',

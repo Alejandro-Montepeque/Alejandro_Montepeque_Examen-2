@@ -7,8 +7,8 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
       {
-        path: '',
-        name: 'home',
+        path: '/reseñasPositivas',
+        name: 'Positivas',
         component: Pagina1,
       },
       {
