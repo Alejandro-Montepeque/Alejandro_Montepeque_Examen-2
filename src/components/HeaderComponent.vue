@@ -22,7 +22,7 @@ const navigation = {
 }
 </script>
 <template>
-    <header class="position-fixed top-0 start-0 w-100 z-3">
+    <header class="position-fixed top-0 start-0 w-100 z-3 ">
       <NavbarComponent :navigation="navigation" />
     </header>
   </template>
