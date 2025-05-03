@@ -4,8 +4,8 @@ const { navigation } = defineProps(['navigation']);
 </script>
 
 <template>
-  <nav class="navbar navbar-expand pb-3">
-    <div class="container">
+  <nav class="navbar navbar-expand pb-3 w-100">
+    <div class="container-fluid">
     <RouterLink to="/" class="navbar-brand text-white fw-bold fs-3">
         GastroGuía
     </RouterLink>
